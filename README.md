@@ -1,5 +1,5 @@
 # Page-Rank
-# Run PageRank
+### Run PageRank
 1. Get into project
 2. Get into docker environment
 ### Open Docker
@@ -29,9 +29,13 @@
    `hadoop jar pr.jar Driver /transition /pagerank /output 1`
    
    //args0: dir of transition.txt
+   
    //args1: dir of PageRank.txt
+   
    //args2: dir of unitMultiplication result
+   
    //args3: times of convergence
+   
 3. Save the result in /pagerankN
 4. Check the result
 
